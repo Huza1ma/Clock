@@ -1,0 +1,31 @@
+* {
+    scroll-behavior: smooth;
+    transition: all .1s linear;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #C4DDFF;
+}
+
+.clock {
+    position: relative;
+    background-color: #A85CF9;
+    color: white;
+    left: 25rem;
+    top: 2rem;
+    border: 10px solid white;
+    display: inline-block;
+}
+
+.read {
+    font-size: 5rem;
+}
+
+.session {
+    display: inline-block;
+    margin: 20px 10px 20px 10px;
+    padding: 5px;
+    border: 10px solid white;
+    border-radius: 30%;
+}
